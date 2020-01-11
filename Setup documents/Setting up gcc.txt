@@ -1,0 +1,21 @@
+Step 1: Install the build-essentials packages
+
+$ sudo apt-get install build-essentials
+
+Step2 : Write a simple C Program
+
+#include <stdio.h>
+
+int main()
+{
+printf("\nA Sample c prgram");
+return 0;
+}
+
+Step 3: Compile the C program with gcc
+
+$ gcc [programName].c -o programName
+
+Step 4: Run the program
+
+$ ./programName
